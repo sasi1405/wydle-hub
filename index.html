@@ -1,0 +1,16 @@
+<!DOCTYPE html> <html> <head> <title>Wydle Hub</title> <link rel="stylesheet" href="style.css"> </head> <body> <h1>Wydle Hub</h1> <p>Digital Solutions for Businesses</p> <h2>Our Services</h2> <ul> <li>Website Creation</li> <li>QR Code Setup</li> <li>Google Review Setup</li> <li>WhatsApp Order Button</li> </ul> <h2>Contact Us</h2> <button onclick="contact()">Contact on WhatsApp</button> <script src="script.js"></script> </body> </html> body { font-family: Arial; text-align: center; background-color: #f4f4f4; }
+h1 {
+color: black;
+}
+
+button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+background-color: green;
+color: white;
+border: none;
+}
+function contact() {
+window.location.href = "https://wa.me/9487207830";
+}
